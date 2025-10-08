@@ -10069,8 +10069,11 @@ textarea {
   .person img {
     position: relative;
     width: 90px;
+    height: 90px;
     border-radius: 50%;
-    margin: -45px auto 0 auto; }
+    margin: -45px auto 0 auto;
+    object-fit: cover;
+    object-position: center; }
   .person .person-contents {
     padding: 30px; }
     .person .person-contents h2, .person .person-contents .h2 {
@@ -10083,6 +10086,21 @@ textarea {
 
 .meta {
   color: #888; }
+
+/* Responsive adjustments for team member images */
+@media (max-width: 768px) {
+  .person img {
+    width: 80px;
+    height: 80px;
+    margin: -40px auto 0 auto; }
+}
+
+@media (max-width: 576px) {
+  .person img {
+    width: 70px;
+    height: 70px;
+    margin: -35px auto 0 auto; }
+}
 
 .hero-slider-wrap {
   position: relative; }
