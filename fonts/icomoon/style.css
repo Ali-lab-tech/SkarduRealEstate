@@ -4917,3 +4917,30 @@
 .icon-zoom_out_map:before {
   content: "\e56b";
 }
+.map-responsive iframe {
+  width: 100%;
+  height: 250px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.site-footer a {
+  text-decoration: none;
+}
+
+.site-footer ul li {
+  display: inline-block;
+}
+
+.site-footer .icon-instagram,
+.site-footer .icon-facebook,
+.site-footer .icon-linkedin,
+.site-footer .fab.fa-tiktok {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .site-footer .row > div {
+    margin-bottom: 30px;
+  }
+}
